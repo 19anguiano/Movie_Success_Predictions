@@ -1,0 +1,122 @@
+body {
+  background-image: linear-gradient(to bottom, #dd003f, #000);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 100%;
+  display: flex;
+}
+
+.sidebar {
+  flex: 0 0 10%;
+  position: relative;
+  z-index: 1;
+  padding: 10px;
+}
+
+.sidebar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: linear-gradient(to bottom, #dd003f, #000);
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.sidebar h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.content {
+  flex: 0 0 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #fff;
+}
+
+#imageContainer {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+#graphImage {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.buttonContainer {
+  text-align: center;
+  margin-top: 1cm;
+}
+
+.navButton {
+  background-color: #dd003f;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 0.5cm;
+}
+
+#graphDescription {
+  font-size: 16px;
+  color: #fff;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#rotatingImages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.rotatingImageContainer {
+  width: 45%;
+  margin: 10px;
+  text-align: center;
+}
+
+.rotatingImage {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+}
+
+.rotatingImage:hover {
+  transform: scale(1.1);
+}
+
+.rotatingImageContainer p {
+  font-size: 16px;
+  color: #fff;
+  margin-top: 10px;
+  text-align: center;
+}
