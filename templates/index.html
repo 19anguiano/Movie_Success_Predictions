@@ -1,20 +1,59 @@
 <!doctype html>
 <html>
 	<head>
-		<title>Our HTML Page</title>
-		<meta name="description" content="Our first page">
-		<meta name="keywords" content="html tutorial template">
+		<title>Movie Success Prediction</title>
+		<meta name="Movie Success Prediction" content="Our first page">
 	</head>
 	<body>
-		<h1>Content goes here.</h1>
+		<h1>Provide Movie Details</h1>
 		
 		<!-- <div class='tableauPlaceholder' id='viz1670285371275' style='position: relative'><noscript><a href='#'><img alt='Advent calendar ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ch&#47;ChristmasCalendar2022&#47;Adventcalendar&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ChristmasCalendar2022&#47;Adventcalendar' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ch&#47;ChristmasCalendar2022&#47;Adventcalendar&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1670285371275');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='850px';vizElement.style.height='927px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
  -->
 		<form name="form", method="POST", style="text-align: center;">
             <br>
-            X1: <input type="number" name="x1", placeholder="Enter X1" required/>
+            Budget: <input type="number" name="budget", placeholder="Enter Budget ($)" required/>
             <br><br>
-            X2: <input type="number" name="x2", placeholder="Enter X2" required/>
+            Runtime: <input type="number" name="runtime", placeholder="Enter Runtime (min)" required/>
+            <br><br>
+			Month of Release: <input type="number" name="month", placeholder="Enter Month (1-12)" required/>
+            <br><br>
+			Language Is English: <input type="number" name="en", placeholder="True or False (1 or 0)" required/>
+            <br><br>
+			Genre: History: <input type="number" name="History", placeholder="True or False (1 or 0)" required/>
+            <br><br>
+			Genre: Romance: <input type="number" name="Romance", placeholder="True or False (1 or 0)" required/>
+            <br><br>
+			Genre: Action: <input type="number" name="Action", placeholder="True or False (1 or 0)" required/>
+            <br><br>
+			Genre: Documentary: <input type="number" name="Documentary", placeholder="True or False (1 or 0)" required/>
+            <br><br>
+			Genre: Fantasy: <input type="number" name="Fantasy", placeholder="True or False (1 or 0)" required/>
+            <br><br>
+			Genre: Thriller: <input type="number" name="Thriller", placeholder="True or False (1 or 0)" required/>
+            <br><br>
+			Genre: Family: <input type="number" name="Family", placeholder="True or False (1 or 0)" required/>
+            <br><br>
+			Genre: Drama: <input type="number" name="Drama", placeholder="True or False (1 or 0)" required/>
+            <br><br>
+			Genre: Western: <input type="number" name="Western", placeholder="True or False (1 or 0)" required/>
+            <br><br>
+			Genre: Crime: <input type="number" name="Crime", placeholder="True or False (1 or 0)" required/>
+            <br><br>
+			Genre: Science Fiction: <input type="number" name="Science Fiction", placeholder="True or False (1 or 0)" required/>
+            <br><br>
+			Genre: War: <input type="number" name="War", placeholder="True or False (1 or 0)" required/>
+            <br><br>
+			Genre: Mystery: <input type="number" name="Mystery", placeholder="True or False (1 or 0)" required/>
+            <br><br>
+			Genre: Music: <input type="number" name="Music", placeholder="True or False (1 or 0)" required/>
+            <br><br>
+			Genre: Animation: <input type="number" name="Animation", placeholder="True or False (1 or 0)" required/>
+            <br><br>
+			Genre: Comedy: <input type="number" name="Comedy", placeholder="True or False (1 or 0)" required/>
+            <br><br>
+			Genre: Adventure: <input type="number" name="Adventure", placeholder="True or False (1 or 0)" required/>
+            <br><br>
+			Genre: Horror: <input type="number" name="Horror", placeholder="True or False (1 or 0)" required/>
             <br><br>
             <button value="Submit">Run</button>
         </form>
