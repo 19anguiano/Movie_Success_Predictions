@@ -1,5 +1,5 @@
 
-# Movie_Success_Predictions
+# Movie Success Predictions
 
 Welcome! Here is a supervised machine learning model that aims to predict the success rate of movies using a dataset sourced from Letterboxd.com. The primary objective of this project is to provide valuable insights and patterns for studios and companies in determining which movies to host, fund, or sponsor.
 
