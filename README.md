@@ -24,10 +24,11 @@ Movie success rate prediction holds immense significance across various domains,
 - Flask
 
 ## To run the app:
-Git clone - https://github.com/19anguiano/Movie_Success_Predictions
-CD into directory - Movie_Success_Predictions
-Start Flask app with app.py
-Visit localhost:5000 in a browser
+- Git clone - https://github.com/19anguiano/Movie_Success_Predictions
+- CD into directory - Movie_Success_Predictions
+- Start Flask app with app.py
+- Visit localhost:5000 in a browser
+
 ## Implementation Details
 This repository provides a collection of scripts and files that demonstrate the project's key features including:
 
