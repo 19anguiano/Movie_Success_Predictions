@@ -87,7 +87,6 @@ Process:
 
 
 ## CREDITS & SOURCES
-Kaggle.com
-TMDB 
-D3.js documentation: https://d3js.org
-Plotly.js
+- Kaggle.com
+- TMDB 
+
